@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
 
+
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
@@ -17,38 +18,38 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'goodone3.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1ahruWpiS_JVfYiYVfiyHugcr0ELlRX7t/view?usp=sharing'// if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'myvino.jpeg',
+    title: 'Vino',
+    info: 'VINO was created as a place to be able to search for and save your favorite wines, all in one place. For the lovers of wine, and those who want to learn more about what styles of wine they like to drink.',
     info2: '',
-    url: '',
+    url: 'https://myvino.herokuapp.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'letterscramble.jpeg',
+    title: 'Letter Scramble',
+    info: 'A simple letter game, inspired by the classic game of Scrabble, exercising the users vocabulary and allowing them to play against a second player. ',
     info2: '',
-    url: '',
+    url: 'https://npacha.github.io/Letter_Scramble/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'nicoleschocolates.jpeg',
+    title: 'Nicoles Chocolates',
+    info: 'A mockup e-commerce chocolate shop (one of my many day dreams). Because chocolate makes almost everyone a little happier.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -59,31 +60,31 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'nicolekpacha@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nicolepacha/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/NPacha',
     },
   ],
 };
