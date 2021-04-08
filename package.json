@@ -1,9 +1,9 @@
 {
   "engines": {
-    "node": ">=12.16.3"
+    "node": "14.15.4"
   },
   "name": "gatsby-starter-hello-world",
-  "private": true,
+  "private": false,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",

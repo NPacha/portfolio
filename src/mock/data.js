@@ -34,7 +34,7 @@ export const projectsData = [
     info: 'VINO was created as a place to be able to search for and save your favorite wines, all in one place. For the lovers of wine, and those who want to learn more about what styles of wine they like to drink.',
     info2: '',
     url: 'https://myvino.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/NPacha/VINO', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -43,17 +43,17 @@ export const projectsData = [
     info: 'A simple letter game, inspired by the classic game of Scrabble, exercising the users vocabulary and allowing them to play against a second player. ',
     info2: '',
     url: 'https://npacha.github.io/Letter_Scramble/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'nicoleschocolates.jpeg',
-    title: 'Nicoles Chocolates',
-    info: 'A mockup e-commerce chocolate shop (one of my many day dreams). Because chocolate makes almost everyone a little happier.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    repo: 'https://github.com/NPacha/Letter_Scramble', // if no repo, the button will not show up
+  }
+  // {
+  //   id: nanoid(),
+  //   img: 'nicoleschocolates.jpeg',
+  //   title: 'Nicoles Chocolates',
+  //   info: 'A mockup e-commerce chocolate shop (one of my many day dreams). Because chocolate makes almost everyone a little happier.',
+  //   info2: '',
+    
+  //    // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
