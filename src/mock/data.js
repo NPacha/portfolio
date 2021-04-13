@@ -44,16 +44,18 @@ export const projectsData = [
     info2: '',
     url: 'https://npacha.github.io/Letter_Scramble/',
     repo: 'https://github.com/NPacha/Letter_Scramble', // if no repo, the button will not show up
-  }
-  // {
-  //   id: nanoid(),
-  //   img: 'nicoleschocolates.jpeg',
-  //   title: 'Nicoles Chocolates',
-  //   info: 'A mockup e-commerce chocolate shop (one of my many day dreams). Because chocolate makes almost everyone a little happier.',
-  //   info2: '',
+  },
+  {
+    id: nanoid(),
+    img: 'nicoleschocolates.jpeg',
+    title: 'Nicoles Chocolates',
+    info: 'A mockup e-commerce chocolate shop (one of my many day dreams). Because chocolate makes almost everyone a little happier.',
+    info2: '',
+    url: 'https://nicoleschocolates.herokuapp.com',
+    repo: 'https://github.com/NPacha/ChocolateStore'
     
-  //    // if no repo, the button will not show up
-  // },
+     // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
