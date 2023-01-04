@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import Resume from '../../images/Nicole Pacha Resume V2.pdf';
 
 
 const About = () => {
@@ -55,7 +56,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href="https://docs.google.com/document/d/e/2PACX-1vRBQPxJUro4dPd5ou-awRdZ5STP_zAqP5tU5SugCMTrrs-pZhczpWVul_uQy03Yri4yTXEAL3oW7v15/pub"
+                      href={Resume}
                     >
                       Resume
                     </a>
