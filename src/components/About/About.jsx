@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import Resume from '../../images/Nicole Pacha Resume V2.pdf';
+
 
 
 const About = () => {
@@ -23,6 +23,22 @@ const About = () => {
       setIsDesktop(false);
     }
   }, []);
+
+   // Function will execute on click of button
+   const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('NicolePachaResumeV2.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Resume.pdf';
+            alink.click();
+        })
+    })
+}
 
   return (
     <section id="about">
@@ -53,12 +69,11 @@ const About = () => {
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      onClick={onButtonClick}
                       className="cta-btn cta-btn--resume"
-                      href={Resume}
+                     
                     >
-                      Resume
+                     Download Resume
                     </a>
                   </span>
                 )}
